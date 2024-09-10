@@ -1,0 +1,193 @@
+/*Aktuelle CSS funktioniert auch mit Vorschau stand 5.5.23 */
+.body-content {
+    background-color: #1b649c;
+    height: 100vh;
+}
+
+#image-title {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+.h2, h2 {
+    font-size: 18px;
+	color: #fff;
+}
+
+.container {
+    height: 30%; /*100vh; */
+    width: 90% !important;
+}
+
+.splide__slide {
+    cursor: pointer;
+    text-align: center;
+    /* background: #fff; herausgenommen, da sonst weiß durchscheint*/
+    overflow: hidden;
+
+    background-position: top center !important;
+    background-repeat: no-repeat;
+}
+
+.carousel-caption {
+    text-align: left !important;
+    bottom: 0px !important;
+    background: #302d2d6b;
+    padding: 9px 5px 0;
+    left: 21% !important;
+    right: 21%;
+}
+
+.splide__slide img {
+    vertical-align: bottom;
+}
+
+.splide__arrow {
+    -ms-flex-align: center;
+    align-items: center;
+    background: #ccc;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    display: -ms-flexbox;
+    display: flex;
+    height: 1.5em;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0;
+    position: absolute;
+    top: 46%;
+    transform: translateY(-50%);
+    width: 1.5em;
+    z-index: 1;
+}
+
+.splide__arrow--prev svg {
+    transform: scaleX(-1);
+}
+
+
+.splide__arrow--prev {
+    left: 2em !important;
+}
+
+.splide__arrow--next {
+    right: 2em !important;
+}
+
+.splide__pagination {
+    top: 300px;
+}
+
+.modal-dialog {
+    width: 650px;
+    margin: 4px auto 0;
+}
+
+.modal-header {
+    padding: 5px 15px 0px 15px; 
+}
+
+.modal-header h4 {
+    font-size: 16px; 
+}
+
+/*pk*/
+.modal-body {
+    text-align: center;
+}
+  
+/* Anpassung Bild Desktop, dass es nicht ausserhalb des iFrames ist, pk */
+.modal-body img { 
+    width: auto;
+    height: 90%;
+}
+
+/* v2 */
+.v2 .splide__slide {
+    height: 254px !important;
+}
+
+/* v3 */
+.v3 #image-title {
+    padding-top: 15px;
+}
+
+
+.v3 .container {
+    height: 89vh !important;
+    width: 100% !important;
+    overflow: hidden;
+}
+
+.v3 #thumbnail-slider {
+    margin-top: -70px;
+}
+
+.v3 #main-slider .splide {
+    max-height: 440px;
+}
+
+
+.v3 #main-slider .splide__slide {
+    cursor: pointer;
+    text-align: center;
+    background: #fff;
+    height: 74vh !important; /*vorher 74*/
+    background-size: contain !important;
+    background-position: top center !important;
+}
+
+.v3 .splide__pagination {
+    top: 110px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .v3 .container {
+        height: 90vh !important;
+        width: 90% !important;
+        overflow: hidden;
+    }
+
+    .v3 #thumbnail-slider {
+        margin-top: 100px;
+        float: left;
+        width: 100%;
+        max-height: 50px;
+    }
+
+    .splide {
+        max-height: 230px;
+    }
+    .splide__arrow--prev {
+        left: 0.5em !important;
+    }
+    .splide__arrow--next {
+        right: 0.5em !important;
+    }
+
+    .modal-header {
+        padding: 0px; /*test 5px 15px 0px 15px*/
+    }
+
+    .modal-header h4 {
+        font-size: 0px; /*test 16*/
+    }
+
+    .v3 #main-slider .splide__slide {
+        height: 53vh !important; /*vorher 74*/
+    }
+    
+  	.modal-body img { /* Anpassung Bild Mobil, dass es nicht ausserhalb des iFrames ist, pk */
+        width: 90%;
+        height: auto;
+    }
+
+    /*pk*/
+    .splide__track {
+        margin-bottom: -178px;
+    }
+}

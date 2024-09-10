@@ -1,0 +1,182 @@
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* google gallery  */
+.google-image-title {
+    text-align: center;
+    font-weight: bold;
+}
+.google-image {
+    max-height: 90%;
+    border: 2px solid #54494900;
+    margin-top: -5px;
+}
+
+
+
+/* site */
+.site-iframe {
+    width: 90%; height: 100%; margin-left: 5%;
+}
+
+h1, .h1 {
+    font-size: 28px !important;
+}
+
+/* schedule */
+.schedule-title {
+    font-weight: bold;
+}
+.schedule-content {
+    width: 100%;
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.left-bg{
+    width:54% !important; height: 73vh;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.schedule-content .content-overlay {
+    background: rgb(36 34 25 / 50%);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 1;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+
+.schedule-border {
+    border: 1px solid black;
+    padding: 10px;
+    height:76vh
+}
+
+.background-aqua {
+    background-color: aqua;
+}
+.left-background-color {
+    background-color: #0389f7;
+}
+
+.right-background-color {
+    background-color: #e2e2e2;
+}
+
+.img-thumbnail {
+    padding: 0px;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.schedule-image {
+    /* max-height: 166px; /* 50px; */
+}
+
+
+
+
+
+.schedule-item-border {
+    border: 1px solid black;
+    height: 200px;
+}
+
+
+.schedule-list-content {
+    width: 70%;
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 10px;
+    border: 1px dashed #efe0d1;
+    border-radius: 20px;
+    background: #d0a276;
+    margin:auto;
+}
+
+.list-border {
+border-bottom: 1px dashed #362d2d;
+float: left;
+width: 100%;
+padding: 10px 0;
+}
+.list-border:last-child {
+    border: none;
+}
+
+.long_date {
+font-weight: bold;
+}
+.short_date {
+font-weight: bold;
+}
+.headline {
+font-weight: bold;
+}
+.description {
+font-weight: bold;
+}
+.location {
+font-weight: bold;
+}
+
+
+.one-row {
+height: 100%;
+}
+
+.fullscreen {
+height : 100vh !important;
+
+}
+.fullscreen .img-thumbnail {
+    height: 300px !important;
+    margin-top: 30%;
+    float: right;
+}
+
+.schedule_entries body{
+    background-color:#0389f7;
+}
+
+
+
+.content-area {
+    color: #fff;
+    z-index: 9999999;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+}
+
+.content-area h3 {
+    font-size: 55px !important;
+}
+
+.right-section h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.right-section h3 {
+    margin: 5px 0 0px 0;
+    font-weight: 700;
+}

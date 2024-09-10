@@ -1,0 +1,282 @@
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888888c5;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #55555594;
+}
+
+body {
+    height: 100vh;
+    background-color: #d0a27654;
+    overflow: scroll;
+}
+
+.carousel-item {
+    border-spacing: 0px;
+}
+.schedule-list-content {
+    width: 70%;
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 10px;
+    border: 1px dashed #efe0d1;
+    border-radius: 20px;
+    background: #d0a276;
+    margin: auto;
+}
+
+.list-border {
+    border-bottom: 1px dashed #362d2d;
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+}
+.list-border:last-child {
+    border: none;
+}
+h2 {
+    margin: 0px;
+}
+
+p {
+    margin: 10px 0px 0px;
+    font-size: 16px;
+}
+
+h2,
+.h2 {
+    font-size: calc(26px + 1vw);
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.schedule-title {
+    font-weight: bold;
+    font-size: 28px !important;
+}
+
+.image-item {
+    max-height: 106px;
+}
+.img-thumbnail {
+    padding: 0px;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.image-one-item,
+.image-one-row {
+    max-height: 500px;
+}
+
+td {
+    font-size: 25px;
+}
+.long_date {
+    font-weight: bold;
+}
+.short_date {
+    font-weight: bold;
+}
+.headline {
+    font-weight: bold;
+}
+.description {
+    font-weight: bold;
+}
+.location {
+    font-weight: bold;
+}
+
+@media only screen and (min-device-width: 200px) and (max-device-width: 415px) {
+    .schedule-list-content {
+        display: block;
+        width: 100%;
+    }
+    .mt-20 {
+        margin-top: 0px !important;
+    }
+
+    .schedule-title {
+        font-weight: bold;
+        font-size: 22px !important;
+    }
+    .schedule-content {
+        border-spacing: 2px;
+        border: 1px solid black;
+        border-radius: 20px;
+    }
+
+    h2,
+    .h2 {
+        font-size: 18px;
+    }
+    .long_date {
+        text-align: center;
+    }
+    .short_date {
+        font-size: 40px !important;
+        text-align: center;
+    }
+    .headline {
+        font-size: 34px !important;
+        text-align: center;
+    }
+    .description {
+        font-size: 24px !important;
+        text-align: center;
+    }
+    .location {
+        font-size: 24px !important;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-device-width: 640px) and (max-device-width: 667px) {
+    .schedule-list-content {
+        display: block;
+        width: 100%;
+    }
+    .mt-20 {
+        margin-top: 0px !important;
+    }
+
+    .schedule-title {
+        font-weight: bold;
+        font-size: 22px !important;
+    }
+    .schedule-content {
+        border-spacing: 2px;
+        border: 1px solid black;
+        border-radius: 20px;
+    }
+
+    h2,
+    .h2 {
+        font-size: 18px;
+    }
+    .long_date {
+        text-align: center;
+    }
+    .short_date {
+        font-size: 40px !important;
+        text-align: center;
+    }
+    .headline {
+        font-size: 34px !important;
+        text-align: center;
+    }
+    .description {
+        font-size: 24px !important;
+        text-align: center;
+    }
+    .location {
+        font-size: 24px !important;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-device-width: 740px) and (max-device-width: 750px) {
+    .schedule-list-content {
+        display: block;
+        width: 100%;
+    }
+
+    .right-section h1 {
+        font-size: 20px !important;
+    }
+    h2,
+    .h2 {
+        font-size: 18px;
+    }
+    .long_date {
+        text-align: center;
+    }
+    .short_date {
+        font-size: 40px !important;
+        text-align: center;
+    }
+    .headline {
+        font-size: 34px !important;
+        text-align: center;
+    }
+    .description {
+        font-size: 24px !important;
+        text-align: center;
+    }
+    .location {
+        font-size: 24px !important;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-device-width: 760px) and (max-device-width: 820px) {
+    .schedule-list-content {
+        display: block;
+        width: 100%;
+    }
+
+    .schedule-title {
+        font-size: 25px !important;
+    }
+
+    .schedule-content {
+        border-spacing: 5px;
+    }
+
+    h2,
+    .h2 {
+        font-size: 18px;
+    }
+    .long_date {
+        text-align: center;
+    }
+    .short_date {
+        font-size: 40px !important;
+        text-align: center;
+    }
+    .headline {
+        font-size: 34px !important;
+        text-align: center;
+    }
+    .description {
+        font-size: 24px !important;
+        text-align: center;
+    }
+    .location {
+        font-size: 24px !important;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-device-width: 900px) and (max-device-width: 1024px) {
+    .right-section h1 {
+        font-size: 27px !important;
+    }
+    h2,
+    .h2 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-device-width: 1261px) and (max-device-width: 1366px) {
+}
+
+@media only screen and (min-device-width: 1367px) and (max-device-width: 1440px) {
+}

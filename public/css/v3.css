@@ -1,0 +1,56 @@
+.body-content {
+    background-color: gray;
+}
+
+
+
+#image-title {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.container {
+    height: 100vh;
+    width: 90% !important;
+}
+
+/* https://www.se-bruchsal.de/ */
+.container {
+    height: 78vh !important;
+}
+#main-slider .splide__slide {
+    cursor: pointer;
+    text-align: center;
+    background: #fff;
+    /*height: 100vh !important; */
+    /*CSS FOR  IFRAME https://www.se-bruchsal.de/ */
+    height: 78vh !important;
+    background-size: contain !important;
+    background-position: top center !important;
+}
+
+.splide__slide img {
+    vertical-align: bottom;
+}
+
+.splide__arrow--prev {
+    left: -3em !important;
+}
+
+.splide__arrow--next {
+    right: -3em !important;
+}
+
+.splide__pagination {
+    top: 110px;
+}
+
+.modal-dialog {
+    width: 960px;
+}
+
+.modal-body img {
+    width: 100%;
+}

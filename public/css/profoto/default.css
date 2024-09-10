@@ -1,0 +1,171 @@
+/* geändert am 5.5. durch pk */
+iframe, embed {
+    height: 100vh !important;
+}
+
+.body-content {
+    background-color: #C79A93;
+    height: 100vh;
+}
+
+#image-title {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+.h2, h2 {
+    font-size: 15px;
+	color: #fff;
+}
+
+.container {
+    height: 30%; /*100vh; */
+    width: 90% !important;
+}
+
+.splide__slide {
+    cursor: pointer;
+    text-align: center;
+    /* background: #fff; herausgenommen, da sonst weiß durchscheint*/
+    overflow: hidden;
+
+    background-position: top center !important;
+    background-repeat: no-repeat;
+}
+
+.carousel-caption {
+    text-align: left !important;
+    bottom: 0px !important;
+    background: #302d2d6b;
+    padding: 9px 5px 0;
+    left: 21% !important;
+    right: 21%;
+}
+
+.splide__slide img {
+    vertical-align: bottom;
+}
+
+.splide__arrow {
+    -ms-flex-align: center;
+    align-items: center;
+    background: #ccc;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    display: -ms-flexbox;
+    display: flex;
+    height: 1.5em;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0;
+    position: absolute;
+    top: 46%;
+    transform: translateY(-50%);
+    width: 1.5em;
+    z-index: 1;
+}
+
+.splide__arrow--prev svg {
+    transform: scaleX(-1);
+}
+
+
+.splide__arrow--prev {
+    left: 1em !important;
+}
+
+.splide__arrow--next {
+    right: 1em !important;
+}
+.splide__pagination {
+    top: 300px;
+}
+
+.modal-dialog {
+    width: 650px; /*605px; */  /* geändert für mobil am 5.5. durch pk */
+    margin: 4px auto 0;
+}
+
+.modal-header {
+    padding: 5px 15px 0px 15px;
+}
+
+.modal-header h4 {
+    font-size: 16px;
+}
+
+.modal-body img {
+  /*  width: 100%; */  /* geändert für mobil am 5.5. durch pk */
+    height: auto;
+}
+
+/* v2 */
+.v2 .splide__slide {
+    height: 254px !important;
+}
+
+/* v3 */
+.v3 #image-title {
+    padding-top: 15px;
+}
+
+
+.v3 .container {
+    height: 89vh !important;
+    width: 100% !important;
+    overflow: hidden;
+}
+
+.v3 #thumbnail-slider {
+    margin-top: -65px;
+}
+
+.v3 #main-slider .splide {
+    max-height: 440px;
+}
+
+
+.v3 #main-slider .splide__slide {
+    cursor: pointer;
+    text-align: center;
+    background: #fff;
+    height: 74vh;
+    background-size: contain !important;
+    background-position: top center !important;
+}
+
+.v3 .splide__pagination {
+    top: 110px;
+}
+
+
+@media only screen and (max-width: 400px) { /*768*/
+
+    .v3 .container {
+        height: 87vh !important;
+        width: 90% !important;
+        overflow: hidden;
+    }
+
+    .v3 #thumbnail-slider {
+        margin-top: -50px; /* vorher 109*/
+    }
+    .splide__arrow--prev {
+        left: 0.5em !important;
+    }
+    .splide__arrow--next {
+        right: 0.5em !important;
+    }
+
+    .v3 #main-slider .splide__slide { /* geändert für mobil am 5.5. durch pk */
+        height: 67vh; /*war50, jetzt auf 28 wegen hochkantbildern*/ 
+        max-height: 167px; /*wegen hochkant*/
+    }
+
+    .modal-body img {   /* geändert für mobil am 5.5. durch pk */
+        width: auto;
+        height: 75%;
+    }
+}

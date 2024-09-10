@@ -1,0 +1,32 @@
+/*Edit schedules style*/
+body{
+background-color: #000000;
+}
+
+.schedule-list-content {
+    border: 1px solid #000000;
+    border-radius: 20px;
+    background: #8ADB8E;
+    margin: auto;
+	width: 80vw;
+}
+
+.short_date{
+	font-size: 50px;
+}
+
+.long_date{
+	font-size: 30px;
+}
+
+.headline{
+	font-size: 20px;
+}
+
+.description{
+	font-size: 20px;
+}
+
+.location{
+	font-size: 45px;
+}

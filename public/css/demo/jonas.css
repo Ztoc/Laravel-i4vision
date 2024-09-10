@@ -1,0 +1,125 @@
+body {
+    background: #ffffff; /*808080;/*667d91*/
+}
+.carousel-inner {
+    background: #FFFFFF; /*#0389f7*/
+}
+/* google gallery  */
+.google-image-title {
+    text-align: center;
+    font-size: 16px;/*24px*/
+	color: black; /*white;*/
+}   
+.google-image {
+    max-height: 90%;//*90%*/
+    border: 2px solid #544949;
+    margin-top: -5px;
+}
+
+.google-image-item {
+	padding: 0px; 
+	height: 87vh; 
+	padding-bottom: 0px
+}
+
+/* site */
+.site-iframe {
+    width: 90%; height: 100%; margin-left: 5%;
+}
+
+/* title */
+.h1, h1 {
+margin: 0px;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+.row {
+margin-left: 0px;
+}
+
+/* termin datum / uhrzeit */
+.h3, h3 {
+    font-size: 20px; /*24px;*/
+	font-weight: bold;
+}
+
+
+/* schedule */
+.schedule-title {
+    font-weight: normal;/*bold*/
+	color: black; /*white;*/
+	
+}
+
+.schedule-content {
+    width: 100%;
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 10px;
+    border-color: grey;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+/* schedule content */
+.schedule4 {
+   
+	height:250px;
+  }
+
+/* wirkt auch auf termin text */
+.schedule-border {
+    border: 1px solid black;
+    font-size: 18px; /*20px;*/
+    padding: 10px;
+}
+
+.left-background-color {
+    background-color: #0389f7;
+}
+
+.right-background-color {
+    background-color: #e2e2e2;
+}
+
+.schedule-image {
+    /* width: 250px; */
+    height: 100px;  /* 25vh; seems not to be supported with Android Browser! so we better use the px */
+	/* max-height: 166px; /* needed to set here, as otherwise setting at flow.css is overriding the hight! */
+	/* width: 300px; */
+}
+/* when image count is 1, you can modify image of schedule */
+  .image-one-item {
+    max-height: 500px;
+  }
+
+.schedule-image-one {
+    height: 50vh;
+}
+
+/* one ist doch wenn es nur ein bild gibt oder?? */
+.img-thumbnail-one {
+    height: 330px; /* 60px; */
+}
+
+.img-thumbnail- {
+    height: 60px; 
+}
+
+.img-big {
+	width: 70%;
+	max-height=800px;
+    height: 800px; 
+}
+
+.schedule-item-border {
+    border: 1px solid black;
+
+    height: 200px;
+}
+.schedule-img {
+    width: 250px;
+    height: 166px;
+}

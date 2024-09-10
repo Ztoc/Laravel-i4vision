@@ -1,0 +1,42 @@
+iframe, embed {
+    height: 100vh !important;
+}
+
+
+
+.body-content {
+    height: 100vh;
+}
+
+.h2, h2 {
+    font-size: 15px;
+	color: #fff;
+}
+
+.carousel-caption {
+    background: #302d2d6b;
+}
+
+.splide__arrow {
+    background: #ccc;
+}
+
+@media only screen and (max-width: 768px) {
+      
+
+    .v3 .container {
+        height: 87vh !important;
+        width: 90% !important;
+        overflow: hidden;
+    }
+
+    .v3 #thumbnail-slider {
+        margin-top: -50px !important; /*vorher 109*/
+    }
+    .splide__arrow--prev {
+        left: 0.5em !important;
+    }
+    .splide__arrow--next {
+        right: 0.5em !important;
+    }
+}

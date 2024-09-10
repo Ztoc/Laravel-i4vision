@@ -1,0 +1,55 @@
+.body-content {
+    background-color: gray;
+}
+
+
+
+#image-title {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.container {
+    height: 100vh;
+    width: 90% !important;
+}
+
+.splide__slide {
+    cursor: pointer;
+    text-align: center;
+    background: #fff;
+    overflow: hidden;
+    max-height: 254px !important;
+    background-position: top center !important;
+    background-repeat: no-repeat;
+}
+
+.splide__slide img {
+    vertical-align: bottom;
+}
+
+.splide__arrow {
+    top: 128px !important;
+}
+
+.splide__arrow--prev {
+    left: -3em !important;
+}
+
+.splide__arrow--next {
+    right: -3em !important;
+}
+
+.splide__pagination {
+    top: -60px;
+}
+
+.modal-dialog {
+    width: 960px;
+}
+
+.modal-body img {
+    width: 100%;
+}

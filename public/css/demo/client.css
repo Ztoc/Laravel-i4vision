@@ -1,0 +1,48 @@
+.h2,
+h2 {
+    font-size: 28px;
+    color: #000;
+    font-weight: bold;
+}
+
+.carousel-caption {
+    background: #302d2d6b;
+}
+
+.splide__arrow {
+    background: #ccc;
+}
+
+/*Edit schedules style*/
+.schedule_entries body {
+    /*Overall background color*/
+    background-color: white;
+}
+
+.schedule-list-content {
+    border: 1px solid black;
+    border-radius: 20px;
+    /*Content background color*/
+    background: lightblue;
+    margin: auto;
+}
+
+.headline {
+    font-size: 40px;
+}
+
+.description {
+    font-size: 25px;
+}
+
+.long_date {
+    font-size: 25px;
+}
+
+.short_date {
+    font-size: 50px;
+}
+
+.location {
+    font-size: 40px;
+}
